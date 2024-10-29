@@ -88,7 +88,7 @@ class WebsiteParser:
         # Generate and return the public URL if the file is public
         if is_public:
             # upload_url = f"{str(os.getenv('SPACES_ENDPOINT'))}/{space_name}/{save_as}"
-            upload_url = f"https://iconluxurygroup-s3.s3.us-east-2.amazonaws.com/{save_as}"
+            upload_url = f"https://iconluxurygroup-s3.s3.us-east-2.amazonaws.com/dev/fiver_user/{save_as}"
             self.logger.info(f"Public URL: {upload_url}")
             return upload_url
 
